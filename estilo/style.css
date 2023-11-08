@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Halloween', serif;
+    src: url('../fontes/scary_halloween/Scary\ Halloween\ Font.ttf') format('truetype') format('opentype');
+    font-family:'Pumpkin Jack', Arial, Helvetica, sans-serif;
+    src: url('../fontes/pumpkin_jack/Pumpkin\ Jack.ttf') format('truetype') format('opentype');
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+    background-image: url('../imagens/halloween.png');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    color: orange;
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Halloween';
+}
+
+main{
+    background-color: white;
+}
