@@ -1,10 +1,8 @@
 @charset "UTF-8";
 
 @font-face {
-    font-family: 'Halloween', serif;
-    src: url('../fontes/scary_halloween/Scary\ Halloween\ Font.ttf') format('truetype') format('opentype');
-    font-family:'Pumpkin Jack', Arial, Helvetica, sans-serif;
-    src: url('../fontes/pumpkin_jack/Pumpkin\ Jack.ttf') format('truetype') format('opentype');
+    font-family: 'Infectious Halloween';
+    src: url('../fontes/infectious_halloween/InfectiousHalloween-Regular.otf') format('opentype');
 }
 
 *{
@@ -12,7 +10,7 @@
     padding: 0px;
 }
 body{
-    background-color: black;
+    background-color: #000000;
     background-image: url('../imagens/halloween.png');
     background-position: top center;
     background-repeat: no-repeat;
@@ -20,12 +18,37 @@ body{
 }
 
 h1{
-    color: orange;
+    color: #ffa500;
     text-align: center;
-    font-size: 3em;
-    font-family: 'Halloween';
+    font-size: 3.3em;
+    font-family: 'Infectious Halloween';
+    padding: 30px;
+    letter-spacing: 0.1cm;
+}
+
+h2{
+    font-size: 2em;
+    font-family: 'Infectious Halloween';
+    background: linear-gradient(to right, #be8212, transparent);
+    padding: 2px;
+    margin: 8px;
 }
 
 main{
-    background-color: white;
+    
+    padding: 15px;
+    height: 400px;
+    max-width: 800px;
+    min-width: 300px;
+    margin: auto;
+    overflow-y: auto;
+    box-shadow: 2px 4px 10px #000;
+}
+
+p{
+    color: #ffa500;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+    text-indent: 40px;
 }
