@@ -9,6 +9,7 @@
     margin: 0px;
     padding: 0px;
 }
+
 body{
     background-color: #000000;
     background-image: url('../imagens/halloween.png');
@@ -66,4 +67,16 @@ a{
 a:hover{
     text-decoration: underline;
     color: yellow;
+}
+
+.pg{
+    font-size: 20px;
+    color: #ffa500;
+    text-decoration: none;
+    text-align: center;
+}
+
+.pg:hover{
+    color: #ffa600b7;
+    text-decoration: underline;
 }
