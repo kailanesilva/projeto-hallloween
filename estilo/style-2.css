@@ -1,46 +1,93 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: "Infectious Halloween";
+    src: url("../fontes/infectious_halloween/InfectiousHalloween-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "HALLOWEEN";
+    src: url("../fontes/halloween_17/HALLOWEEN.ttf")
+    format("truetype");
+}
+
 *{
     margin: 0px;
     padding: 0px;
 }
 
-@font-face {
-    font-family: "Infectious Halloween";
-    src: url("../fontes/infectious_halloween/InfectiousHalloween-Regular.otf")
-    format("opentype");
-}
-
 body{
     background-color: #000000;
-    background-image: url("../imagens/halloween-background.jpg");
+    background-image: url("../imagens/halloween.png");
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 h1{
-    font-family: "Infectious Halloween";
-    font-size: 270px;
     color: #ffa500;
     text-align: center;
+    font-size: 6em;
+    font-weight: normal;
+    font-family: "HALLOWEEN", serif;
+    padding: 30px;
+    letter-spacing: 0.1em;
+}
+
+h2{
+    font-size: 2.2em;
+    font-family: "HALLOWEEN", serif;
+    font-weight: normal;
+    background: linear-gradient(to right, #ad7409, transparent);
+    padding: 2px;
+    margin: 8px;
+}
+
+main{
+    background-color: rgba(0, 0, 0, 0.425);
+    padding: 15px;
+    height: 400px;
+    max-width: 800px;
+    min-width: 350px;
+    margin: auto;
+    overflow-y: auto;
+    box-shadow: 2px 4px 10px #000;
 }
 
 p{
-    font-size: 39px;
     color: #ffa500;
-    width: 700px;
-    padding-left: 20px;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+    text-indent: 40px;
+}
+
+.img{
+    text-align: center;
+    display: block; 
 }
 
 a{
-    font-size: 20px;
-    color: #ffa500;
+    color: white;
     text-decoration: none;
-    text-align: center;
 }
 
 a:hover{
+    text-decoration: underline;
+    color: yellow;
+}
+
+div{
+    text-align: center;
+}
+
+div a{
+    font-size: 20px;
+    color: #ffa500;
+    text-decoration: none;
+}
+
+div a:hover{
     color: #ffa600b7;
     text-decoration: underline;
 }
